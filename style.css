@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --cor-pricipal: rgb(255,99,71);
+    --cor-secundaria: rgb(240,248,255);
+    --cor-contraste: rgb(59,59,59);
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
 body {
     min-height: 100vh;
     display: flex;
+    font-family: var(--fonte-principal);
 }
 
 .cabecalho{
     display: flex;
     flex-direction: column;
-    background-color: tomato;
+    background-color: var(--cor-pricipal);
     width: 25vw;
     /* margin-right: 1.5em; */
     justify-content: center;
@@ -27,7 +37,7 @@ body {
 .cabecalho-nav-link {
     margin-top: 1em;
     text-decoration: none;
-    color: aliceblue;
+    color: var(--cor-secundaria);
 }
 
 .cabecalho-nav-link:hover, .fa-brands:hover {
@@ -39,7 +49,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: var(--cor-secundaria);
     padding: 0 2.5em;
     flex-grow: 1;
 }
@@ -52,16 +62,17 @@ body {
 
 .dados-nome {
     font-size: 4em;
-    color: tomato;
-    border-bottom: 2px solid black;
+    color: var(--cor-pricipal);
+    border-bottom: 2px solid var(--cor-contraste);
     margin-bottom: 1rem;
 }
 .dados-nome-primeiro {
-    color: rgb(59, 59, 59);
+    color: var(--cor-contraste);
 }
 
 .dados-pessoais-titulo {
     font-weight: bold;
+    line-height: 1.5;
 }
 
 .descricao {
@@ -69,8 +80,24 @@ body {
 }
 
 .redes-links {
-    color: rgb(59, 59, 59);
+    color: var(--cor-contraste);
     margin-right: 1em;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+}
+
+.fa-square-github:hover {
+    color: #171515
+}
+
+.fa-square-twitter:hover{
+    color: #24a4f4
+}
+
+.fa-square-facebook:hover {
+    color: #3B5998
 }
 
 .conhecimentos {
@@ -82,6 +109,6 @@ body {
 }
 
 .fa-person-chalkboard, .fa-laptop-code {
-    color: rgb(59, 59, 59);
+    color: var(--cor-contraste);
     font-size: 1.2em;
 }
