@@ -84,6 +84,10 @@ body {
     margin-right: 1em;
 }
 
+.conhecimentos, .objetivos {
+    padding: 0 1.5em;
+}
+
 .fa-linkedin:hover {
     color: #0e76a8;
 }
