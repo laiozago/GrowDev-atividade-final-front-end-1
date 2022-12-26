@@ -73,3 +73,10 @@ body {
     margin-right: 1em;
 }
 
+.conhecimentos {
+    list-style-type:upper-alpha;
+}
+
+.conhecimentos-item, .objetivos-item {
+    margin-bottom: 0.5em;
+}
