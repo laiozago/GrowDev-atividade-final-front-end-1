@@ -80,3 +80,8 @@ body {
 .conhecimentos-item, .objetivos-item {
     margin-bottom: 0.5em;
 }
+
+.fa-person-chalkboard, .fa-laptop-code {
+    color: rgb(59, 59, 59);
+    font-size: 1.2em;
+}
