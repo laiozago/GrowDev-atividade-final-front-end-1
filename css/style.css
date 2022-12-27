@@ -136,6 +136,21 @@ body {
         flex-direction: row;
         justify-content: space-around;
     }
-}
 
-@media (max-width: 576px) {}
+    .principal{
+        justify-content: flex-start;
+    }
+
+    .dados-nome {
+        font-size: 3em;
+        margin: 0.5em 0;
+    }
+
+    .conhecimentos {
+        padding-top: 1em;
+    }
+
+    .objetivos {
+        padding-top: 1em;
+    }
+}
